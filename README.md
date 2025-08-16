@@ -146,3 +146,42 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>메뉴 버튼 예제</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .menu button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>메뉴</h1>
+    <div class="menu">
+        <button onclick="location.href='https://coollimej-netizen.github.io/my-cat/'">애용공식홈</button>
+    </div>
+</body>
+</html>
+
